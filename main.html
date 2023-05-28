@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Healthy & Purebred Puppies from Responsible Breeder | Mr n Mrs Pet</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./main.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="bannersection"
+        style="background-image: url(https://www.mrnmrspet.com/assets/image/slider_banner/about.webp)">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                            <div class="container-fluid">
+                                <a class="navbar-brand text-white" href="#"><img
+                                        src="https://www.mrnmrspet.com/assets/image/logo/logo(white).png" alt=""></a>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav " style="padding-left: 285px;">
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn m-2">Pet</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                                <a href="#home">Home</a>
+                                                <a href="#about">About</a>
+                                                <a href="#contact">Contact</a>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn m-2">Pet Services</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                                <a href="#home">Home</a>
+                                                <a href="#about">About</a>
+                                                <a href="#contact">Contact</a>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn m-2">Breeds</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                                <a href="#home">Home</a>
+                                                <a href="#about">About</a>
+                                                <a href="#contact">Contact</a>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn m-2">Blog</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                                <a href="#home">Home</a>
+                                                <a href="#about">About</a>
+                                                <a href="#contact">Contact</a>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn m-2">Foods</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                                <a href="#home">Home</a>
+                                                <a href="#about">About</a>
+                                                <a href="#contact">Contact</a>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn m-2">List Your Pet</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                                <a href="#home">Home</a>
+                                                <a href="#about">About</a>
+                                                <a href="#contact">Contact</a>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn m-2">Join Us</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                                <a href="#home">Home</a>
+                                                <a href="#about">About</a>
+                                                <a href="#contact">Contact</a>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn m-2">Login</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                                <a href="#home">Home</a>
+                                                <a href="#about">About</a>
+                                                <a href="#contact">Contact</a>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 text-center">
+                <h3 class="headerh3">Pets Complete Your Family !!</h3>
+            </div>
+            <div class="row mt-3">
+                <div class="text-center">
+                    <select class="selectdpdl  ">
+                        <option value="">Please Select The Pet You Are Looking For...</option>
+                        <option value="Dog">Dog</option>
+                        <option value="Cats">Cats</option>
+                        <option value="SmallPet">Small Pet</option>
+                        <option value="PetFood">Pet Food</option>
+                    </select>
+                    <button class="buttonlist  btn-primary  ">Search</button>
+                </div>
+            </div>
+            <div class="row  rowlist mx-5 mt-4">
+                <div class="col-2 col-sm">
+                    <p class="btn btnlist text-white">Breed Information</p>
+                </div>
+                <div class="col-2 col-sm">
+                    <p class="btn btnlist text-white">Blog</p>
+                </div>
+                <div class="col-2 col-sm">
+                    <p class="btn btnlist text-white">Pet Transportation</p>
+                </div>
+                <div class="col-2 col-sm">
+                    <p class="btn btnlist text-white">Pet Adoption</p>
+                </div>
+                <div class="col-2 col-sm">
+                    <p class="btn btnlist text-white">Mating Services</p>
+                </div>
+                <div class="col-2 col-sm">
+                    <p class="btn btnlist text-white">Compare Breed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row mt-4 ">
+                <div class="col mt-1" style="margin: 20px;
+                margin-left: 126px;">
+                    <img class="imagediv" src="https://www.mrnmrspet.com/assets/image/icons/breed_register.webp" alt="">
+                </div>
+
+                <div class="col-8 p-0 ">
+                    <div class="media-body ">
+                        <h4 class=" text-primary fs-5 lh-1">Are You A Breeder?</h4>
+                        <p class="fs-6">It takes only a few clicks to connect with genuine pet lovers. Register Now!</p>
+                    </div>
+                </div>
+                <div class="col-2 mt-4">
+                    <button class="buttlist">Add Your Pet > </button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section style="    background-color: #018f98 !important;">
+        <div class="container ">
+            <div class="row my-4">
+                <div class="content lh-1 text-white text-center mt-4">
+                    <h4 class="fs-2">Available Pets</h4>
+                    <p>Explore and choose your perfect pet.</p>
+                </div>
+
+            </div>
+            <div class="row inlinecard">
+                <div class="col-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid" src="https://www.mrnmrspet.com/thum-image/poodle-3-5-2022.webp"
+                                alt="">
+                        </div>
+                        <div class="card-footer">
+                            <p class="btn btn-primary w-100">Poodle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid" src="https://www.mrnmrspet.com/thum-image/hamsters-3-5-2022.webp"
+                                alt="">
+                        </div>
+                        <div class="card-footer">
+                            <p class="btn btn-primary w-100">Hamster</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid" src="https://www.mrnmrspet.com/thum-image/persian-3-5-2022.webp"
+                                alt="">
+                        </div>
+                        <div class="card-footer">
+                            <p class="btn btn-primary w-100">Persian</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid" src="	https://www.mrnmrspet.com/thum-image/guinea-pigs-3-5-2022.webp"
+                                alt="">
+                        </div>
+                        <div class="card-footer">
+                            <p class="btn btn-primary w-100">Guinea Pig</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <img class="img-fluid" src="https://www.mrnmrspet.com/thum-image/maltese-3-5-2022.webp"
+                                alt="">
+                        </div>
+                        <div class="card-footer">
+                            <p class="btn btn-primary w-100">Maltese</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row text-center  mt-3">
+                <h2 style="color: #0e686e;">Why MMP?</h2>
+                <p class="lh-1">Looking for a furry companion? Know why MMP is the perfect option for you.</p>
+            </div>
+            <div class="row rowbg mt-3">
+                <div class="col-3 whiteboxbg ">
+                    <center class="mt-3">
+                        <img src="https://www.mrnmrspet.com/assets/image/icons/health.webp" alt="">
+                        <p>Healthy Pet</p>
+                    </center>
+                </div>
+                <div class="col-3 whiteboxbg">
+                    <center class="mt-3">
+                        <img src="https://www.mrnmrspet.com/assets/image/icons/ethical.webp" alt="">
+                        <p>Healthy Pet</p>
+                    </center>
+                </div>
+                <div class="col-3 whiteboxbg">
+                    <center class="mt-3">
+                        <img src="	https://www.mrnmrspet.com/assets/image/icons/health_checkup.webp" alt="">
+                        <p>Healthy Pet</p>
+                    </center>
+                </div>
+            </div>
+            <div class="row mt-5 rowbg">
+                <div class="col-3 whiteboxbg">
+                    <center class="mt-3">
+                        <img src="	https://www.mrnmrspet.com/assets/image/icons/expert.webp" alt="">
+                        <p>Healthy Pet</p>
+                    </center>
+                </div>
+                <div class="col-3 whiteboxbg">
+                    <center class="mt-3">
+                        <img src="https://www.mrnmrspet.com/assets/image/icons/vaccination.webp" alt="">
+                        <p>Healthy Pet</p>
+                    </center>
+                </div>
+                <div class="col-3 whiteboxbg">
+                    <center class="mt-3">
+                        <img src="	https://www.mrnmrspet.com/assets/image/icons/support.webp" alt="">
+                        <p>Healthy Pet</p>
+                    </center>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section style="margin-top: 10px; background-color: rgba(233, 228, 223, 0.833);">
+        <div class="container ">
+            <h2 class="text-center" style="color: #195070;">Exciting Services For Your Pets</h2>
+            <div class="row ">
+                <div class="col-3">
+                    <img src="https://www.mrnmrspet.com/assets/image/front_img/dog-grooming_2021.webp" alt="">
+                </div>
+                <div class="col-7">
+                    <img src="	https://www.mrnmrspet.com/assets/image/front_img/dog_hostel_2021.webp" alt="">
+                </div>
+                <div class="col-2">
+                    <img src="https://www.mrnmrspet.com/assets/image/front_img/dog-training-2021.webp" alt="">
+                </div>
+            </div>
+            <div class="row rowbg22 mt-5">
+                <div class="col-6">
+                    <img src="https://www.mrnmrspet.com/assets/image/front_img/pet-adoption-2021.webp" alt="">
+
+                </div>
+                <div class="col-6">
+                    <img src="https://www.mrnmrspet.com/assets/image/front_img/mating-services-2021.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-4">
+            <p class="text-center fs-2" style="color: #0e686e; font-size: 20px;">Join Us</p>
+            <div class="row listed">
+                <div class="col-3">
+                    <div class="text-center">
+                        Join as a Breeder
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="text-center">
+                        Join as a Sitter
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="text-center">
+                        Join as a Dog Trainer
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 listed">
+                <div class="col-3">
+                    <div class="text-center">
+                        Join as a Dog Walker
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="text-center">
+                        Join as a Dog Groomer
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="text-center">
+                        Join as a Veterinarian
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <h2 class="gradiant-text mt-5">Excited to get a pet, but still confused?</h2>
+                <small class="text-center lh-1">We’re here to help you! Try MMP Tools and make the right choice.</small>
+            </div>
+            <div class="row mt-5">
+                <div class="col-3">
+                    <div class="container11">
+                        <img src="	https://www.mrnmrspet.com/assets/image/front_img/labrador-2021.webp" alt="Snow"
+                            style="width:100%;">
+                        <div class="bottom-left">Labrador Retriever</div>
+
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="container11">
+                        <img src="https://www.mrnmrspet.com/assets/image/front_img/guinea_pigs_2021.webp" alt="Snow"
+                            style="width:100%;">
+                        <div class="bottom-left1">Guinea Pigs</div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="container11">
+                        <img src="https://www.mrnmrspet.com/assets/image/front_img/persian_cat_2021.webp" alt="Snow"
+                            style="width:100%;">
+                        <div class="bottom-left">Persian Cat</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-6">
+                <img src="https://www.mrnmrspet.com/assets/image/front_img/breed_2021.webp" alt="">
+            </div>
+            <div class="col-3">
+                <img src="	https://www.mrnmrspet.com/assets/image/front_img/compare_breed_2021.webp" alt="">
+            </div>
+            <div class="col-3">
+                <img src="https://www.mrnmrspet.com/assets/image/front_img/more_breed_2021.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row mt-4">
+            <div class="col-4">
+                <div class="row">
+                    <p class="fs-2">Read top articles from health experts</p>
+                </div>
+                <div class="row">
+                    <p class="fs-6">Find inspiration in the new photos we hand-select every day or use our search to
+                        find and download exactly what you’re looking for.</p>
+                </div>
+                <div class="row">
+                    <img src="https://www.mrnmrspet.com/assets/image/front_img/view-all-blogs.webp" alt="">
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="	https://www.mrnmrspet.com/assets/image/front_img/blog2.webp" alt="">
+                <h5>Checkup Starting From 999/-</h5>
+                <p class="lh-1">Read top articles from health experts</p>
+            </div>
+            <div class="col-4">
+                <img src="	https://www.mrnmrspet.com/assets/image/front_img/blog3.webp" alt="">
+                <h5>Checkup Starting From 999/-</h5>
+                <p>Read top articles from health experts</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row gradiantrow">
+            <h2 class="gradient_text">Meet Our Happy Customers</h2>
+            <div class="col-6 ">
+                <img src="https://www.mrnmrspet.com/assets/image/pets_img/dog2.webp" height="350px">
+            </div>
+            <div class="col-6 textupper1">
+                <h4 class="textupper">Megha Singh Buy a pug with KCI Registered by Mr. Jain</h4>
+                <p> We believe finding a puppy shouldn't be filled with mystery or compromise, so we work extra hard to
+                    take care of the details so you can focus on what really matters: the joy of your new furry family
+                    member! We'll continue to be here if you need us.
+                </p>
+                <a href="">View All Pets</a>
+            </div>
+        </div>
+    </div>
+    <section style="background-color: #018f98;">
+        <div class="container mt-3">
+            <div class="row text-start text-white">
+                <div class="col-6">
+                    <h4 class="fs-2 mt-3">Join our family of pet lovers!</h4>
+                    <p class="lh-1">Receive helpful tips on every step of your journey as a pet parent.</p>
+                </div>
+                <div class="col-6 mt-4">
+                    <div class="input-group">
+                        <input width="25%" type="text" aria-label="Last name" class="form-control input-group-text"
+                            placeholder="Enter Email-Id">
+                        <span class="input-group-text">First and last name</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section style="background-color: rgb(52, 52, 52);">
+        <div class="container">
+            <div class="row ">
+                <div class="col mt-4">
+                    <ul class="d-flex ullist">
+                    
+                        <li><a name="Footer About Us" href="/about-us">About Us</a></li>
+                        <li><a name="Footer Contact Us" href="/contact-us">Contact Us</a></li>
+                        <li><a name="Footer Terms &amp; Conditions" href="/terms-and-conditions.aspx">Terms &amp;
+                                Conditions</a></li>
+                        <li><a name="Footer Privacy Policy" href="/privacy-policy.aspx">Privacy Policy</a></li>
+                        <li><a name="Footer Career" href="">Career</a></li>
+                        <li><a name="Footer Sponsorship" href="">Sponsorship</a></li>
+                        <li><a name="Footer Blogs" href="/blog">Blogs</a></li>
+                       
+                    </ul>
+                    <ul class="d-flex ullist lh-1">
+                        <li><a name="Footer About Us" href="/about-us">Book a Service</a></li>
+                        <li><a name="Footer Contact Us" href="/contact-us">Dog Hostel</a></li>
+                        <li><a name="Footer Terms &amp; Conditions" href="/terms-and-conditions.aspx">Dog Training &amp;
+                                Conditions</a></li>
+                        <li><a name="Footer Privacy Policy" href="/privacy-policy.aspx">Dog Walking</a></li>
+                        <li><a name="Footer Career" href="">Grooming</a></li>
+                        <li><a name="Footer Sponsorship" href="">Veterinery</a></li>
+                        
+                        
+                    </ul>
+                    <ul class="d-flex ullist lh-1">
+                        <li><a name="Footer About Us" href="/about-us">As a Breeder</a></li>
+                        <li><a name="Footer Contact Us" href="/contact-us">As a Sitter</a></li>
+                        <li><a name="Footer Terms &amp; Conditions" href="/terms-and-conditions.aspx">As a Dog Trainer&amp;
+                                </a></li>
+                        <li><a name="Footer Privacy Policy" href="/privacy-policy.aspx">As a Dog Walker</a></li>
+                        <li><a name="Footer Career" href="">As a Dog Groomer</a></li>
+                        <li><a name="Footer Sponsorship" href="">As a Veterinarian</a></li>
+                         <div class="text-white">
+                            <h2>Contact Us</h2>
+                            <p><i class="fa fa-phone" aria-hidden="true"></i> Call Us: +91- 7597-972-222</p>
+                            <p><i class="fa fa-envelope" aria-hidden="true"></i> Email Us: hello@mrnmrspet.com</p>
+                        </div>
+                        
+                    </ul>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <section style="    background-color: rgb(41, 41, 41);">
+    <div class="container">
+        <div class="row d-flex">
+            <p class="copyright text-white mt-4">© 2018-2023 Wanderlust Pet Services Private Limited. All Rights Reserved.</p>
+            <div class="symbolls">
+                <i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-pinterest fa-xl" style="color: #fafafa;"></i>
+                <i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>

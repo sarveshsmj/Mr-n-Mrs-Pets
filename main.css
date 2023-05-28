@@ -1,0 +1,160 @@
+*{
+   margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+   
+
+.bannersection{
+    height: 318px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: block;
+}
+.dropbtn {
+    background-color: #76787a00;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Mukta', sans-serif;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #c0bccac7;
+    color: rgba(0, 0, 0, 0.632);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  .headerh3{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .selectdpdl{
+    border-radius: 5px;
+    padding: 10px 50px;
+  }
+  .buttonlist{
+    padding: 8px 60px;
+    border-radius: 5px;
+    font-family: 'Mukta', sans-serif;
+  }
+  .rowlist{
+   margin: 0;
+  }
+  .btnlist:hover{
+    background-color: rgba(51, 145, 145, 0.89);
+   
+  }
+  .imagediv{
+    height: 50px;
+    width: 50px;
+    justify-content: end;
+  }
+ .buttlist{
+    background-color: #018f98;
+    font-size: small;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    }
+    .inlinecard{
+      justify-content: center;
+    }
+    .whiteboxbg{
+      height: 128px;
+      width: 100%;
+      box-shadow: 1px 2px 43px 0px rgba(93, 91, 91, 0.39);
+    }
+  .rowbg{
+    justify-content: space-around;
+  }
+  .listed{
+    justify-content: space-around;
+    font-size: large;
+  }
+  .listed div{
+    color: #222b2ce0;
+    background-color: rgb(223, 215, 205);
+    padding: 5px;
+    font-weight: bold;
+  }
+  .gradiant-text{
+    background: linear-gradient(to right, #4db6ac 20%, #195070 70%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+   
+  }
+  .container11 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .bottom-left1 {
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+  }
+  .gradient_text {
+    background: linear-gradient(to right, #4db6ac 20%, #195070 70%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+.textupper{
+ text-transform: uppercase;
+}
+.textupper1{
+ text-transform: lowercase;
+}
+.gradiantrow{
+  justify-content: space-around;
+}
+.ullist li a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+.ullist li {
+  text-decoration: none;
+  padding: 10px;
+}
